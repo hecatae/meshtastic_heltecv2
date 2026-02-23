@@ -34,6 +34,8 @@ jobs:
       - name: Build Heltec V2 firmware
         run: |
           cd firmware
+          pio run -e heltec-v2_0 -t buildfs --disable-auto-clean
+          pio run -e heltec-v2_0 --disable-auto-clean
           pio run -e heltec-v2_0
 
       - name: Upload firmware binaries
