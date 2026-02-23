@@ -28,7 +28,7 @@ jobs:
         run: |
           git clone --depth=1 --recurse-submodules https://github.com/meshtastic/firmware.git
           cd firmware
-          git checkout develop   # or 'master' if you prefer stable
+          git checkout master   # or 'develop' if you prefer cutting edge
 
       - name: Build Heltec V2 firmware
         run: |
