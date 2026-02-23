@@ -28,7 +28,7 @@ jobs:
       - name: Fetch latest Meshtastic release
         id: get_release
         run: |
-          LATEST_TAG=$(curl -s https://api.github.com/repos/meshtastic/firmware/releases/latest | jq -r .tag_name)
+          LATEST_TAG=$(curl -s https://api.github.com/repos/meshtastic/firmware/releases/284218972 | jq -r .tag_name)
           echo "Latest Meshtastic release: $LATEST_TAG"
           echo "tag=$LATEST_TAG" >> $GITHUB_OUTPUT
 
