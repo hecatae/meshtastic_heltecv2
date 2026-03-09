@@ -1,10 +1,10 @@
-# Meshtastic Heltec V2 Auto-Builds
+# Meshtastic m5stack unitc6l Auto-Builds
 
 This repository automatically builds the **Meshtastic firmware** for the  
-**Heltec WiFi LoRa 32 V2** board every night both latest stable and development branches
+**M5Stack UnitC6l**
 
 ## Downloads
-- Go to the [Actions tab](../../actions) → click the latest run → download the `heltec-v2-firmware` artifact.
+- Go to the [Actions tab](../../actions) → click the latest run → download the `m5stack-unitc6l-firmware` artifact.
 - Each artifact includes:
   - `firmware.bin`
   - `firmware.factory.bin`
